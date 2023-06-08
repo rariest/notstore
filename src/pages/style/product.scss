@@ -1,0 +1,42 @@
+.goods {
+    background: #ffffff;
+
+    &__container {
+        padding: 0 10px;
+        margin: 0 auto;
+        display: flex;
+        max-width: 1380px;
+        min-height: 80vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__image-wrapper {
+        flex: 0 0 50%;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__right {
+        flex: 0 0 50%;
+    }
+
+    &__image {
+        max-height: 500px;
+        max-width: 400px;
+    }
+
+    &__title {
+        font-size: 48px;
+        font-weight: 500;
+        padding: 5px;
+        margin-bottom: 15px;
+    }
+
+    &__desription {
+        font-size: 24px;
+        padding: 5px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+}

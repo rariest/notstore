@@ -1,0 +1,18 @@
+.button-secondary {
+    outline: none;
+    border: none;
+    background: #000000;
+    color: #fff;
+    border-radius: 22px;
+    cursor: pointer;
+    transition: .2s opacity;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px 20px 8px 20px;
+    border: 1px solid #000;
+    border-radius: 10px;
+
+    &:hover {
+        opacity: .7;
+    }
+}
